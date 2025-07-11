@@ -4,7 +4,7 @@ A modern marketplace application that enables users to swap items seamlessly acr
 
 ## 🔗 Links
 
-- [Demo](http:swapify.club)
+- [Visit Site](http:swapify.club)
 
 ## 🚀 Tech Stack
 
