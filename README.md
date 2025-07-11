@@ -2,9 +2,7 @@
 
 A modern marketplace application that enables users to swap items seamlessly across multiple platforms.
 
-## 🔗 Links
-
-- [Visit Site](http:swapify.club)
+## [🔗 Visit Site](http:swapify.club)
 
 ## 🚀 Tech Stack
 
