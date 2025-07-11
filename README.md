@@ -1,4 +1,4 @@
-# Swapify
+# <img src="swapify_frontend/public/swapify_logo.png" alt="Swapify" width="40"/> Swapify - Secondhand eMarketplace
 
 A modern marketplace application that enables users to buy used products seamlessly across multiple platforms.
 
