@@ -2,6 +2,10 @@
 
 A modern marketplace application that enables users to swap items seamlessly across multiple platforms.
 
+## 🔗 Links
+
+- [Demo](http:swapify.club)
+
 ## 🚀 Tech Stack
 
 ### Frontend (Web)
@@ -227,10 +231,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Mobile Development: React Native
 - Authentication: JWT, Google OAuth
 - Database: MongoDB with Mongoose
-
-## 🔗 Links
-
-- [Demo](http:swapify.vlub)
 
 ## 📞 Support
 
