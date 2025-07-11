@@ -1,9 +1,7 @@
 # Swapify
 
 A modern marketplace application that enables users to buy used 
-
 products seamlessly across multiple platforms.
-
 [🔗 Visit Site](http:swapify.club)
 
 ## 🚀 Tech Stack
