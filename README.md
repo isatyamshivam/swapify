@@ -1,4 +1,4 @@
-# <img src="swapify_frontend/public/swapify_logo.png" alt="Swapify" width="40"/> Swapify - Secondhand Marketplace
+# <img src="client/public/swapify_logo.png" alt="Swapify" width="40"/> Swapify - Secondhand Marketplace
 
 A modern marketplace application that enables users to buy used products seamlessly across multiple platforms.
 
@@ -7,20 +7,24 @@ A modern marketplace application that enables users to buy used products seamles
 ## 🚀 Tech Stack
 
 ### Frontend (Web)
+
 - **Next.js** - React framework for production
 - **React** - JavaScript library for building user interfaces
 - **TailwindCSS** - Utility-first CSS framework
 - **TypeScript** - Type-safe JavaScript
 
 ### Backend (API)
+
 - **Express.js** - Fast, unopinionated web framework for Node.js
 - **MongoDB** - NoSQL database for flexible data storage
 - **Node.js** - JavaScript runtime environment
 
 ### Mobile App
+
 - **React Native** - Cross-platform mobile development framework
 
 ### Additional Tools & Services
+
 - **Appwrite** - Backend-as-a-Service platform
 - **JWT** - JSON Web Tokens for authentication
 - **Mongoose** - MongoDB object modeling for Node.js
@@ -29,10 +33,10 @@ A modern marketplace application that enables users to buy used products seamles
 
 ```
 Swapify/
-├── swapify_frontend/     # Next.js web application
-├── swapify_backend/      # Express.js API server
-├── swapify_app/          # React Native mobile app
-└── README.md            # This file
+├── client/     # Next.js web application
+├── server/     # Express.js API server
+├── app/        # React Native mobile app
+└── README.md   # This file
 ```
 
 ## ✨ Features
@@ -51,6 +55,7 @@ Swapify/
 ## 🛠️ Installation & Setup
 
 ### Prerequisites
+
 - Node.js (v16 or higher)
 - MongoDB (local or Atlas)
 - Git
@@ -58,16 +63,19 @@ Swapify/
 ### Backend Setup
 
 1. Navigate to the backend directory:
+
 ```bash
-cd swapify_backend
+cd server
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Create a `.env` file:
+
 ```bash
 MONGODB_URI=mongodb://localhost:27017/swapify
 JWT_SECRET=your_jwt_secret_here
@@ -78,6 +86,7 @@ EMAIL_PASS=your_email_password
 ```
 
 4. Start the server:
+
 ```bash
 npm start
 ```
@@ -85,16 +94,19 @@ npm start
 ### Frontend Setup
 
 1. Navigate to the frontend directory:
+
 ```bash
-cd swapify_frontend
+cd client
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. Create a `.env.local` file:
+
 ```bash
 NEXT_PUBLIC_API_URL=http://localhost:3001
 NEXT_PUBLIC_APPWRITE_ENDPOINT=your_appwrite_endpoint
@@ -107,6 +119,7 @@ NEXTAUTH_SECRET=your_nextauth_secret
 ```
 
 4. Start the development server:
+
 ```bash
 npm run dev
 ```
@@ -114,22 +127,26 @@ npm run dev
 ### Mobile App Setup
 
 1. Navigate to the mobile app directory:
+
 ```bash
-cd swapify_app
+cd app
 ```
 
 2. Install dependencies:
+
 ```bash
 npm install
 ```
 
 3. For iOS:
+
 ```bash
 cd ios && pod install && cd ..
 npx react-native run-ios
 ```
 
 4. For Android:
+
 ```bash
 npx react-native run-android
 ```
@@ -137,12 +154,14 @@ npx react-native run-android
 ## 🌐 API Endpoints
 
 ### Authentication
+
 - `POST /api/auth/register` - User registration
 - `POST /api/auth/login` - User login
 - `POST /api/auth/forgot-password` - Password reset request
 - `POST /api/auth/reset-password` - Password reset
 
 ### Listings
+
 - `GET /api/listings` - Get all listings
 - `GET /api/listings/:id` - Get single listing
 - `POST /api/listings` - Create new listing
@@ -151,11 +170,13 @@ npx react-native run-android
 - `GET /api/listings/nearby` - Get nearby listings
 
 ### User Management
+
 - `GET /api/user/:id` - Get user profile
 - `PUT /api/user/:id` - Update user profile
 - `GET /api/my-listings` - Get user's listings
 
 ### Chat
+
 - `GET /api/chat` - Get user's chats
 - `POST /api/chat` - Create new chat
 - `GET /api/chat/:id` - Get chat messages
@@ -163,6 +184,7 @@ npx react-native run-android
 ## 🔧 Development Scripts
 
 ### Frontend
+
 ```bash
 npm run dev          # Start development server
 npm run build        # Build for production
@@ -171,12 +193,14 @@ npm run lint         # Run ESLint
 ```
 
 ### Backend
+
 ```bash
 npm start            # Start server
 npm run dev          # Start with nodemon
 ```
 
 ### Mobile App
+
 ```bash
 npm start            # Start Metro bundler
 npm run android      # Run on Android
@@ -220,7 +244,7 @@ npm run ios          # Run on iOS
 
 ## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. Copyright (c) 2026 Satyam Shivam and Team. See the [LICENSE](LICENSE) file for details.
 
 ## 👥 Team
 
@@ -236,4 +260,4 @@ If you have any questions or need help with setup, please open an issue or conta
 
 ---
 
-**Happy Swapping! 🔄** 
+**Happy Swapping! 🔄**
